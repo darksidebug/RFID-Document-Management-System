@@ -28,17 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.gunaLabel5 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel4 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel3 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
             this.gunaButton8 = new Guna.UI.WinForms.GunaButton();
-            this.gunaAnimateWindow1 = new Guna.UI.WinForms.GunaAnimateWindow(this.components);
-            this.gunaDragControl1 = new Guna.UI.WinForms.GunaDragControl(this.components);
             this.loginBtn = new Bunifu.Framework.UI.BunifuFlatButton();
             this.gunaLabel6 = new Guna.UI.WinForms.GunaLabel();
-            this.gunaDragControl2 = new Guna.UI.WinForms.GunaDragControl(this.components);
             this.gunaCirclePictureBox1 = new Guna.UI.WinForms.GunaCirclePictureBox();
             this.gunaTextBox1 = new Guna.UI.WinForms.GunaTextBox();
             this.gunaTextBox2 = new Guna.UI.WinForms.GunaTextBox();
@@ -136,16 +132,6 @@
             this.gunaButton8.TextOffsetX = 8;
             this.gunaButton8.Click += new System.EventHandler(this.gunaButton8_Click);
             // 
-            // gunaAnimateWindow1
-            // 
-            this.gunaAnimateWindow1.AnimationType = Guna.UI.WinForms.GunaAnimateWindow.AnimateWindowType.AW_CENTER;
-            this.gunaAnimateWindow1.Interval = 100;
-            this.gunaAnimateWindow1.TargetControl = null;
-            // 
-            // gunaDragControl1
-            // 
-            this.gunaDragControl1.TargetControl = null;
-            // 
             // loginBtn
             // 
             this.loginBtn.Activecolor = System.Drawing.Color.White;
@@ -179,23 +165,20 @@
             this.loginBtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.loginBtn.Textcolor = System.Drawing.Color.DimGray;
             this.loginBtn.TextFont = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.loginBtn.Click += new System.EventHandler(this.loginBtn_Click);
             // 
             // gunaLabel6
             // 
             this.gunaLabel6.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.gunaLabel6.AutoSize = true;
             this.gunaLabel6.BackColor = System.Drawing.Color.White;
-            this.gunaLabel6.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel6.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel6.ForeColor = System.Drawing.Color.DimGray;
             this.gunaLabel6.Location = new System.Drawing.Point(7, 114);
             this.gunaLabel6.Name = "gunaLabel6";
-            this.gunaLabel6.Size = new System.Drawing.Size(252, 22);
+            this.gunaLabel6.Size = new System.Drawing.Size(231, 21);
             this.gunaLabel6.TabIndex = 128;
             this.gunaLabel6.Text = "JAB SOFTWARE SOLUTIONS";
-            // 
-            // gunaDragControl2
-            // 
-            this.gunaDragControl2.TargetControl = this.gunaCirclePictureBox1;
             // 
             // gunaCirclePictureBox1
             // 
@@ -256,9 +239,9 @@
             this.gunaLabel1.ForeColor = System.Drawing.Color.DimGray;
             this.gunaLabel1.Location = new System.Drawing.Point(7, 175);
             this.gunaLabel1.Name = "gunaLabel1";
-            this.gunaLabel1.Size = new System.Drawing.Size(190, 20);
+            this.gunaLabel1.Size = new System.Drawing.Size(209, 20);
             this.gunaLabel1.TabIndex = 278;
-            this.gunaLabel1.Text = "For more information visit";
+            this.gunaLabel1.Text = "For more information visit us";
             // 
             // gunaLabel7
             // 
@@ -291,11 +274,11 @@
             this.gunaLabel9.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.gunaLabel9.AutoSize = true;
             this.gunaLabel9.BackColor = System.Drawing.Color.Transparent;
-            this.gunaLabel9.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel9.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel9.ForeColor = System.Drawing.Color.DimGray;
             this.gunaLabel9.Location = new System.Drawing.Point(6, 6);
             this.gunaLabel9.Name = "gunaLabel9";
-            this.gunaLabel9.Size = new System.Drawing.Size(298, 23);
+            this.gunaLabel9.Size = new System.Drawing.Size(302, 23);
             this.gunaLabel9.TabIndex = 281;
             this.gunaLabel9.Text = "RFID Document Management";
             // 
@@ -322,7 +305,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "LoginForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "LoginForm";
+            this.Text = "User Security Credential";
             this.Load += new System.EventHandler(this.LoginForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gunaCirclePictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -337,11 +320,8 @@
         private Guna.UI.WinForms.GunaLabel gunaLabel3;
         private Guna.UI.WinForms.GunaLabel gunaLabel2;
         private Guna.UI.WinForms.GunaButton gunaButton8;
-        private Guna.UI.WinForms.GunaAnimateWindow gunaAnimateWindow1;
-        private Guna.UI.WinForms.GunaDragControl gunaDragControl1;
         private Bunifu.Framework.UI.BunifuFlatButton loginBtn;
         private Guna.UI.WinForms.GunaLabel gunaLabel6;
-        private Guna.UI.WinForms.GunaDragControl gunaDragControl2;
         private Guna.UI.WinForms.GunaCirclePictureBox gunaCirclePictureBox1;
         private Guna.UI.WinForms.GunaTextBox gunaTextBox1;
         private Guna.UI.WinForms.GunaTextBox gunaTextBox2;

@@ -87,5 +87,10 @@ namespace RFID_Document_Management_System
             new UserAccounts().Show();
             animator.AnimateDropDownPanel(gunaLinePanel1, gunaButton10, false);
         }
+
+        private void closeBtn_Click(object sender, EventArgs e)
+        {
+            (System.Windows.Forms.Application.OpenForms["LoginForm"] as LoginForm).WindowState = FormWindowState.Normal;
+        }
     }
 }

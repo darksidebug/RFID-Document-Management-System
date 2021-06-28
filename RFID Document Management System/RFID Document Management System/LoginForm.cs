@@ -32,5 +32,11 @@ namespace RFID_Document_Management_System
         {
 
         }
+
+        private void loginBtn_Click(object sender, EventArgs e)
+        {
+            new Form1().Show();
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }
