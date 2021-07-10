@@ -293,6 +293,7 @@
             this.gunaButton2.Text = "NEW DOC TYPE";
             this.gunaButton2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton2.TextOffsetX = 8;
+            this.gunaButton2.Click += new System.EventHandler(this.gunaButton2_Click);
             // 
             // gunaButton3
             // 
@@ -567,9 +568,9 @@
             this.gunaLabel5.ForeColor = System.Drawing.Color.DimGray;
             this.gunaLabel5.Location = new System.Drawing.Point(15, 23);
             this.gunaLabel5.Name = "gunaLabel5";
-            this.gunaLabel5.Size = new System.Drawing.Size(243, 24);
+            this.gunaLabel5.Size = new System.Drawing.Size(247, 24);
             this.gunaLabel5.TabIndex = 254;
-            this.gunaLabel5.Text = "ADD NEW DOCUMENTS";
+            this.gunaLabel5.Text = "NEW DOCUMENT ENTRY";
             // 
             // gunaGradientTileButton2
             // 

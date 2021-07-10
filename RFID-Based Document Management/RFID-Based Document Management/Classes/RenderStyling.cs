@@ -13,6 +13,8 @@ namespace RFID_Based_Document_Management.Classes
 {
     class RenderStyling
     {
+        GunaElipse elipse = new GunaElipse();
+
         public void BackgroundColor(GunaButton button, Color color)
         {
             button.BaseColor = color;
